@@ -1,0 +1,6 @@
+namespace HoldemTracker.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
