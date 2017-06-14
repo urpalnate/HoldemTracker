@@ -122,7 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -162,6 +161,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Actions.cs" />
+    <Compile Include="Models\FourBetPre.cs" />
+    <Compile Include="Models\Manager.cs" />
+    <Compile Include="Models\NoRaiseFlop.cs" />
+    <Compile Include="Models\NoRaisePre.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\RaisedFlop.cs" />
+    <Compile Include="Models\River.cs" />
+    <Compile Include="Models\State.cs" />
+    <Compile Include="Models\ThreeBetPre.cs" />
+    <Compile Include="Models\Turn.cs" />
+    <Compile Include="Models\TwoBetPre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
