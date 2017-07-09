@@ -7,12 +7,14 @@ namespace HoldemTracker.Models
 {
     public class Player
     {
-        public Actions Action { get; set; } = Actions.HASACTION;
+        public Actions Action { get; set; }
         public Actions LastAction { get; set; }
 
         public Player(int id, bool me)
         {
-            Id = id; Me = me;
+            Id = id;
+            Me = me;
+            Action = Actions.HASACTION;
         }
 
         public int Id
